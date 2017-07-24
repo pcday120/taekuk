@@ -1,0 +1,303 @@
+
+/* iframe용 기본 style 시작 (2012.2.1 추가) */
+@CHARSET "UTF-8";
+body, h1, h2, h3, h4, h5, h6, form, div, em, img, ul, li, ol, fieldset, label, dt, p { padding:0; margin:0; border:0; font-family:"돋움", Dotum, Arial, sans-serif; font-size:12px; color:#33333b; }
+body { background:#FFF; -webkit-text-size-adjust:none; text-align:center; }
+select{font-family:"돋움", Dotum, Arial, sans-serif;}
+table, tr, td{/*border:0;*/ font-family:"돋움", Dotum, Arial, sans-serif; font-size:12px; color:#33333b;}
+li{list-style:none;}
+a { color:#33333b; text-decoration:none; }
+a:hover { color:#da6464; text-decoration:underline; }
+dl, dt, dd { margin:0; padding:0; }
+em,address{font-style:normal;}
+.bn_TR iframe.pd table{ text-align:left;}
+.png24 {tmp:expression(setPng24(this)); _background:none;}
+.bar_gray { font-size:11px; color:#ccc; margin:0 5px;}
+.taL{ text-align:left;}.taC{ text-align:center;}
+.fs_11{ font-size:11px;}.fs_12{ font-size:12px;}.fs_14{ font-size:14px;}.fs_16{ font-size:16px;}
+.ff_tahoma{ font-family:tahoma;}.fw_bold{ font-weight:bold;}.fw_normal{ font-weight:normal;}
+.fc_Dgray{color:#33333b;} .fc_Dgray a, .fc_Dgray a:hover{color:#33333b;}
+.fc_Ngray{color:#595959;} .fc_Ngray a, .fc_Ngray a:hover{color:#595959;}
+.fc_Lgray{color:#888888;} .fc_Lgray a, .fc_Lgray a:hover{color:#888888;}
+.fc_Lred{color:#da6464;} .fc_Lred a, .fc_Lred a:hover{color:#da6464;}
+.fc_Dred{color:#c10100;} .fc_Dred a, .fc_Dred a:hover{color:#c10100;}
+.fc_yellowgreen{color:#83a800;} .fc_yellowgreen a, .fc_yellowgreen a:hover{color:#83a800;}
+.flh_130p{ line-height:130%}.flh_150p{ line-height:150%}.fls_m1{ letter-spacing:-1px;}
+/* iframe용 기본 style 끝 */
+
+
+/* 콘서트 메인스타일 정의 시작 */
+#Con_M iframe body{ text-align:left;}
+
+#Con_M .Con_ST{position:relative; display:block; width:100%; height:328px; overflow:hidden; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/bg_t_concert.jpg) top left no-repeat;}
+  .Con_ST .wrap_Tview{position:relative; width:900px; margin-top:44px; margin-left:56px; display:block;}
+  dl.Tview{position:relative; float:left; width:129px; margin:0 6px; display:inline; overflow:hidden;}
+  dl.Tview dt.Tposter{position:relative; width:129px; height:161px;}
+  dl.Tview dt.Tposter a {width:129px; height:161px; display:inline-block;}
+  dl.Tview dt.Tposter a:hover {width:129px; height:161px; display:inline-block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/select_poster.gif) top left no-repeat transparent;  text-decoration:none;}
+  dl.Tview dt.Tposter a img{ width:123px; height:150px; margin:3px;}
+  dl.Tview dt.Tposter .info{position: absolute; z-index:10; top:118px; left:3px; width:123px; height:35px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/tp_bg_info.png); _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://ticketimage.interpark.com/TicketImage/main/100506_sub/tp_bg_info.png', sizingMethod='crop'); cursor:pointer;}
+  dl.Tview dt.Tposter .info .txt1{display:block; color:#e7e7e7; text-align:center; font-size:11px; margin-top:5px; height:13px; overflow:hidden;}
+  dl.Tview dt.Tposter .info .txt2{display:block; color:#ffcfce; text-align:center; font-size:11px; margin-top:0; height:14px; overflow:hidden;}
+  dl.Tview dd {position:relative; color:#fff; text-align:center; font-size:11px;}
+  dl.Tview dd span.txt1{display:block; width:129px; height:14px; color:#FFF; text-align:center; font-size:12px; font-weight:bold; letter-spacing:-0.1em; overflow:hidden; margin-top:7px;}
+  dl.Tview dd span.txt2{display:block; color:#a0a0a0; text-align:center; font-size:11px; margin-top:3px; letter-spacing:-0.1em; height:12px; overflow:hidden; }
+  dl.Tview dd span.txt3{display:block; color:#a0a0a0; text-align:center; font-size:11px; font-family:arial; letter-spacing:0; height:11px; overflow:hidden;}
+
+#Con_M .Con_SM{position:relative; display:block; width:100%; /*margin-bottom:5px;*/ overflow:hidden;}
+  /* 서브카테고리 */
+  .Con_SM div.sCategory{float:left; position:relative; width:178px; height:321px; overflow:hidden; margin-right:10px; display:inline; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -5px -5px no-repeat; z-index:1; }
+  .Con_SM div.sCategory dl{}
+  .Con_SM div.sCategory dl dt{position:relative; width:178px; height:40px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/tit_concert_category.gif) 15px 15px no-repeat; margin-bottom:5px;}
+  .Con_SM div.sCategory dl dt span.tit{display:none; font-size:0;}
+  .Con_SM div.sCategory dl dt span.num{position:absolute; right:81px; top:18px; color:#da6464; text-decoration:underline; font-family:tahoma; font-size:10px; font-weight:bold; letter-spacing:-0.1em; text-align:right; display:inline-block;}
+  .Con_SM div.sCategory dl dd{padding-left:14px;}
+  .Con_SM div.sCategory dl dd a{ width:147px; height:20px; display:block;}
+  .Con_SM div.sCategory dl dd a img{ margin:3px 0;}
+  .Con_SM div.sCategory .last{position:absolute; bottom:-1px; width:178px; height:21px; display:inline-block; overflow:hidden; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -5px -481px no-repeat; font-size:0; z-index:2;}
+  .Con_SM div.sCategory p.btn{ position:absolute; right:15px; bottom:15px; z-index:5;}
+
+  /* 서브 중앙 */
+  .Con_SM div.sC{float:left; width:510px; overflow:hidden;}
+  .Con_SM div.sC p{position:relative;}
+  .Con_SM div.sC .sC_big{position:relative; width:510px; height:151px; display:block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -16px -638px no-repeat transparent;  z-index:1;}
+    .sC_big .bn_big {position:absolute; top:1px; left:1px;}
+    .sC_big .bn_big img{width:373px; height:149px; z-index:5;}
+    .sC_big  ul{position:absolute; width:150px; z-index:10; right:0px; top:1px;}
+    .sC_big  ul li {width:150px; height:24px; overflow:hidden; line-height:200%; margin-bottom:1px; display:inline-block;}
+    .sC_big  ul li a span {display:block; padding:2px 0 0 26px; letter-spacing:-0.1em;}
+    .sC_big  ul li a{ width:150px; height:24px; display:inline-block; text-align:left; color:#6c6d6f;}
+    .sC_big  ul li a:hover{ width:150px; height:24px; display:inline-block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/on_tabbn.png); _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://ticketimage.interpark.com/TicketImage/main/100506_sub/on_tabbn.png', sizingMethod='crop');  z-index:10; color:#fff; cursor:pointer;}
+    .sC_big  ul li.on a{ width:150px; height:24px; display:inline-block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/on_tabbn.png); _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://ticketimage.interpark.com/TicketImage/main/100506_sub/on_tabbn.png', sizingMethod='crop');  z-index:20; color:#FFF; font-weight:bold;}
+    .sC_big  ul li.on a span {display:block; padding:2px 0 0 26px; letter-spacing:-0.1em;}
+    .sC_big  a:hover {text-decoration:none;}
+
+  .wTag{position:relative; margin-top:14px;}
+  .wTag dt{height:21px; font-size:0;}
+  .wTag dd{height:50px; overflow:hidden; line-height:160%; display:block;}
+    .Tag{ padding:5px 0 0 0; display:block;}
+    .Tag span { display:inline-block; margin:0 6px;}
+    .Tag .L1 a{ letter-spacing:-0.1em; color:#7b7b7b;}
+    .Tag .L2 a{ letter-spacing:-0.1em; font-weight:bold; color:#595959; font-size:12px;}
+    .Tag .L3 a{ letter-spacing:-0.1em; font-weight:bold; color:#da6464; font-size:14px;}
+
+  .wOpen{position:relative; margin-top:10px;}
+  .wOpen .btn_more{ position:absolute; right:7px; top:1px;}
+  /*.wOpen dt{height:21px; font-size:0;}
+    ul.list {position:relative; margin-top:10px; width:510px; display:block; }
+    ul.list li {float:left; height:19px; width:500px; padding-left:8px; display:inline; line-height:120%; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) -3px -387px no-repeat transparent; display:block; white-space:nowrap; text-overflow: ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+    ul.list li span.tit{ float:left; width:440px; display:inline-block; white-space:nowrap; text-overflow: ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+    ul.list li span.tit a{color:#6c6d6f;}
+    ul.list li span.tit a:hover{color:#da6464;}
+    ul.list li span.date{ float:right; display:inline-block; font-size:10px; font-family:arial; text-align:center; color:#adadad;}*/
+
+
+  .wOpen dt{height:21px; font-size:0;}
+    /*ul.list {position:relative; margin-top:10px; width:510px; display:block; text-align:left;}*/
+  .wOpen dd{position:relative; padding-top:8px; width:510px; height:40px; overflow:hidden; vertical-align:top;}
+  .wOpen dd iframe{display:block; width:540px; height:60px; text-align:left; }
+    /*ul.list {position:relative; margin-top:10px; width:510px; display:block; text-align:left;}*/
+    ul.list{display:block; text-align:left; overflow:hidden;}
+    ul.list li {float:left; height:20px; width:500px; padding-left:8px; display:inline; line-height:130%; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) -3px -387px no-repeat transparent; display:block; white-space:nowrap; text-overflow: ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+    ul.list li span.tit{ float:left; width:440px; display:inline-block; white-space:nowrap; text-overflow: ellipsis; -o-text-overflow:ellipsis; overflow:hidden; text-align:left;}
+    ul.list li span.tit a{color:#6c6d6f;}
+    ul.list li span.tit a:hover{color:#da6464;}
+    ul.list li span.date{ float:right; display:inline-block; font-size:10px; font-family:arial; text-align:center; color:#adadad;}
+
+
+  /* 서브 죄측 */
+  .Con_SM div.sR{position:relative; float:right; width:250px; margin-left:12px; display:inline; overflow:hidden;}
+  .Con_SM div.sR .ifr_ranking{ display:block; width:250px; height:151px; overflow:hidden; text-align:left; margin:0; padding:0;}
+  .Con_SM div.sR .ifr_ranking iframe{margin:0; padding:0; width:270px; height:172px; text-align:left;}
+  .Con_SM div.sR .ifr_ranking iframe body{ margin:0; padding:0; text-align:left;}
+    div.wrap_ranking{position:absolute; top:0px; left:0px; margin:0; padding:0; text-align:left; width:250px; height:151px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -227px -162px no-repeat transparent; display:block; overflow:hidden;}
+    div.wrap_ranking p.r_bottom{position:absolute; bottom:-1px; left:0px; margin:0; padding:0; text-align:left; width:250px; height:12px; _heigth:12px;  display:inline-block; overflow:hidden; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -227px -490px no-repeat; font-size:0; z-index:5;}
+
+      div.wrap_ranking dl.r_tit{position:relative; height:47px;}
+      dl.r_tit dt {position:absolute; top:18px; left:15px; display:inline-block;}
+      dl.r_tit dd.r_tab{ position:absolute; top:18px; left:116px; width:79px; height:25px; display:inline-block; text-align:right;}
+      dl.r_tit dd.r_tab span a{ position:relative; font-size:11px; color:#6c6d6f; display:inline-block;}
+
+      /*
+      dl.r_tit dt {position:absolute; top:16px; left:18px; width:45px; height:14px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -232px -80px no-repeat transparent; display:inline-block; text-indent:-99999px;}
+      dl.r_tit dd.r_tab{ position:absolute; top:12px; left:116px; width:79px; height:25px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -373px -545px no-repeat transparent; display:inline-block;}
+      dl.r_tit dd.r_tab span.on{float:left; position:relative; left:1px; top:1px; padding-top:7px; width:39px; height:25px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -374px -583px no-repeat transparent; display:inline-block; text-align:center; font-weight:bold; font-size:11px; color:#2f3742;}
+      dl.r_tit dd.r_tab span a{float:left; position:relative; left:1px; top:1px; padding-top:7px; width:39px; height:18px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -374px -546px no-repeat transparent; display:inline-block; text-align:center; font-size:11px; color:#6c6d6f;}
+      dl.r_tit dd.r_tab span a:hover{width:39px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -374px -583px no-repeat transparent; display:inline-block; text-decoration:none;}
+      */
+      dl.r_tit dd.btn{ position:absolute; top:18px; right:11px; display:inline-block;}
+
+      ol.ranking {text-align:left;}
+      ol.ranking li {position:relative; font-size:0; line-height:0; height:19px; width:250px; overflow:hidden; color:#6c6d6f; display:inline-block;}
+      :root ol.ranking li{width:260px;}
+      ol.ranking li span.num {position:absolute; left:15px; top:1px;}
+      ol.ranking li span.name {position:absolute; left:32px; font-size:12px; width:180px; line-height:130%; letter-spacing:-0.1em; white-space:nowrap; text-overflow: ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+      :root ol.ranking li span.name {white-space: normal; height:16px;}
+      ol.ranking li span.name a{color:#6c6d6f;}
+      :root ol.ranking li span.name a{ display:inline-block; width:180px;}
+      ol.ranking li span.name a:hover{color:#d32621; text-decoration:none;}
+      ol.ranking li span.name strong a{color:#d32621;}
+      ol.ranking li p span{ display:none;}
+      ol.ranking li p{ display:inline-block; position:absolute; right:15px; top:0; width:18px; font-size:10px; color:#999999; font-family:tahoma; line-height:96%; letter-spacing:0;}
+    /*  ol.ranking li p.down{background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) -5px -130px no-repeat transparent; display:inline-block; text-align:right;}
+      ol.ranking li p.up{background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) -24px -145px no-repeat transparent; display:inline-block; text-align:right;}
+      ol.ranking li p.stop{background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) -28px -160px no-repeat transparent; display:inline-block; text-align:right; width:20px;}
+      ol.ranking li p.new{background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) 1px -187px no-repeat transparent; display:inline-block; text-align:right; width:20px;} */
+
+      ol.ranking li p.down{background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) -5px -130px no-repeat transparent; display:inline-block; text-align:left; padding-left:7px;}
+      ol.ranking li p.up{background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) -24px -145px no-repeat transparent; display:inline-block; text-align:left; padding-left:7px;}
+      ol.ranking li p.stop{background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) -41px -160px no-repeat transparent; display:inline-block; text-align:right; width:20px;}
+      ol.ranking li p.new{background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) -3px -187px no-repeat transparent; display:inline-block; text-align:right; width:20px;}
+
+      :root  ol.ranking li p.stop{background:url('http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif') -41px -160px no-repeat transparent; height:10px; width:25px;}
+      :root  ol.ranking li p.new{background:url('http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif') -3px -187px no-repeat transparent; height:10px; width:25px;}
+
+
+    /* 기획공연 */
+    .sSpecial{position:relative; margin-top:10px; display:block;}
+    .sSpecial dl{position:relative; font-size:0; margin-bottom:1px; display:block;}
+    .sSpecial dl dt{ width:250px; height:25px; font-size:11px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -16px -545px no-repeat transparent; display:inline-block;}
+    .sSpecial dl dt a{width:250px; height:25px; display:inline-block;}
+    .sSpecial dl dt a:hover{ text-decoration:none; color:#333; }
+    .sSpecial dl.on dt{width:250px; height:25px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -16px -589px no-repeat transparent; display:inline-block; font-weight:bold; font-size:11px; color:#d32621;}
+    .sSpecial dl span { padding:3px 0 0 7px; width:200px; height:18px; overflow:hidden; line-height:180%; display:inline-block; cursor:pointer;}
+
+
+    /* 핫이슈콘서트 */
+    .wrap_issue{position:relative; clear:both; width:100%; margin-top:10px; border-top:2px solid #6b6f81;}
+    .wrap_issue .issue{position:relative; overflow:hidden; padding-bottom:10px; display:block; _display:inline-block; border:1px solid #cdcdcd; border-top:none; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/bg_gr_gray.gif) bottom left repeat-x;}
+    .wrap_issue_b {position:relative; font-size:0; height:12px; width:100%; display:block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/bg_gr_gray_b.gif) top left repeat-x;}
+    .issue p.tit{position:relative; padding:12px 15px 7px 13px;}
+    .issue  p.line{position:relative; margin:0; padding:0; font-size:0; line-height:0; height:1px; display:block; margin:0 17px 10px 17px; size:0px; border:none; border-bottom:1px solid #e4e4e4;}
+    .issue .list{position:relative; margin:0 0 7px 18px; display:inline-block;}
+    .issue .list dt.issue_obj{position:relative; float:left; width:115px; height:188px; display:inline-block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/bg_off_poster.gif) top center no-repeat;}
+    .issue .list dt.issue_obj .thumb{position:relative; display:inline-block; width:95px; height:130px; top:12px; left:10px;}
+    .issue .list dt.issue_obj .thumb img{position:absolute; z-index:1; cursor:pointer; border:1px solid #ececec;}
+
+    /* 세일리본아이콘 */
+    .issue .list dt.issue_obj .thumb .icon_sale{ position:absolute; top:0px; left:0px; width:49px; height:45px; display:inline-block; z-index:20; _background:none; border:none;}
+    .issue .list dt.issue_obj .thumb .icon_sale img{border:none;}
+
+
+    .issue .list dt.issue_obj a{position:relative; width:115px; height:188px; display:inline-block; text-decoration:none;}
+    /*.issue .list dt.issue_obj a:hover{display:inline-block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/bg_over_poster.gif) top center no-repeat;}*/
+    .issue .list dt.issue_obj p.info { position:relative; display:block; text-align:center; cursor:pointer;}
+    .issue .list dt.issue_obj p.info .txt1{display:block; font-weight:bold; height:14px; overflow:hidden; letter-spacing:-0.1em; margin-top:8px;}
+    .issue .list dt.issue_obj p.info .txt2{display:block; font-size:11px; color:#adadad; height:12px; overflow:hidden; letter-spacing:-0.1em; margin:2px 0;}
+    .issue .list dt.issue_obj p.info .txt3{display:block; font-size:11px; color:#6c6d6f; height:12px; overflow:hidden; letter-spacing:-0.1em;}
+    .issue .list dt.issue_obj p.info .txt3_r{display:block; font-size:11px; color:#da6464; height:12px; overflow:hidden; letter-spacing:-0.1em;}
+
+    .issue .list dt.issue_obj_on {position:relative; float:left; top:0px; width:115px; height:188px; display:inline; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/bg_over_poster.gif) top center no-repeat;}
+    .issue .list dt.issue_obj_on .thumb{position:relative; display:inline-block; width:95px; height:123px; top:7px; left:10px;}
+    .issue .list dt.issue_obj_on .thumb img{position:absolute; z-index:1; border:1px solid #c21818;}
+    .issue .list dt.issue_obj_on p.info { position:relative; display:inline-block; text-align:center;}
+    .issue .list dt.issue_obj_on p.info .txt1{display:block; width:115px; font-weight:bold; color:#FFF; height:14px; overflow:hidden; letter-spacing:-0.1em; margin-top:5px; line-height:130%;}
+    .issue .list dt.issue_obj_on p.info .txt2{display:block; font-size:11px; color:#ffc6c6; height:12px; overflow:hidden; letter-spacing:-0.1em; margin:2px 0;}
+    .issue .list dt.issue_obj_on p.info .btn{display:block; margin-top:8px;}
+    .issue .list dt.issue_obj_on p.info .btn img{ margin:0 1px;}
+
+    /* 세일리본아이콘 */
+    .issue .list dt.issue_obj_on .icon_sale{ position:absolute; top:0px; left:0px; width:49px; height:45px; display:inline-block; z-index:20; _background:none; border:none;}
+    .issue .list dt.issue_obj_on .icon_sale img{border:none;}
+
+    /* 하단 좌측 */
+    .wrap_sBL{float:left; display:block; width:670px;}
+    .hotCon{display:block; background:#f8f8f8; overflow:hidden;}
+    .hotCon .tit_bar{position:relative; display:block; height:34px; width:670px; border-bottom:2px solid #6b6f81; background:#fff;}
+    :root .hotCon .tit_bar{position:relative; display:block; height:32px; width:670px; border-bottom:2px solid #6b6f81; background:#fff;}
+    .hotCon .tit_bar dt.tit{position:absolute; top:11px; left:15px;}
+
+      .tab{position:absolute; top:2px; left:110px; width:; font-size:0; height:32px; padding-left:20px; display:inline-block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_tab.gif) -5px -22px no-repeat;}
+      .tab a { text-indent:-999999px; float:left; font-size:0;}
+      .tab .tab_m1 a{ width:45px; height:32px; display:block;}
+      .tab .tab_m1 a.on{width:46px; height:32px; display:block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_tab.gif) -25px -94px no-repeat;}
+      .tab .tab_m2 a{ width:91px; height:32px; display:block;}
+      .tab .tab_m2 a.on{width:92px; height:32px; display:block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_tab.gif) -70px -94px no-repeat;}
+      .tab .tab_m3 a{ width:87px; height:32px; display:block;}
+      .tab .tab_m3 a.on{width:88px; height:32px; display:block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_tab.gif) -161px -94px no-repeat;}
+      .tab .tab_m4 a{ width:77px; height:32px; display:block;}
+      .tab .tab_m4 a.on{width:78px; height:32px; display:block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_tab.gif) -248px -94px no-repeat;}
+
+    /* 3줄
+    .hotCon .wrap_hList{position:relative; width:100%; height:380px; display:block; background:#f8f8f8; padding:18px 0 0 0; }
+    :root .hotCon .wrap_hList{height:364px;}*/
+
+    /* 2줄*/
+    .hotCon .wrap_hList{position:relative; width:100%; height:265px; display:block; overflow:hidden; background:#f8f8f8; padding:18px 0 0 0;  /*border-bottom:2px solid #6B6F81;*/}
+    :root .hotCon .wrap_hList{height:245px;}
+
+    /* 1줄
+    .hotCon .wrap_hList{position:relative; width:100%; height:150px; display:block; overflow:hidden; background:#f8f8f8; padding:23px 0 0 0; border-bottom:2px solid #6B6F81;}
+    :root .hotCon .wrap_hList{height:125px;}*/
+
+    .hotCon .wrap_hList p.bline{position: absolute; bottom:0px; width:100%; padding:0; font-size:0; line-height:0; height:0; display:block; size:0px; border:none; border-top:1px solid #aeaeac; border-bottom:1px solid #f0f0f0; }
+
+    .wrap_hList p.line{position:relative; padding:0; font-size:0; line-height:0; height:1px; display:block; margin:5px 20px 12px 20px; size:0px; border:none; border-bottom:1px solid #e4e4e4;}
+    .hotCon .wrap_hList dl.hList{position:relative; display:inline-block; overflow:hidden; margin:0 17px 0px 17px; padding:0; font-size:0;}
+    .hotCon .wrap_hList dl.hList dd{ float:left; width:98px; height:104px; text-align:center; margin:0 4px; display:inline; font-size:0;}
+    /*.hotCon .wrap_hList dl.hList dd img{width:90px; height:70px;}*/
+    .hotCon .wrap_hList dl.hList dd .txt1{display:block; height:13px; overflow:hidden; font-size:11px; color:#adadad; letter-spacing:-0.1em; line-height:130%; margin-top:5px;}
+    /* 110527 이미지와 텍스트 분리 */
+    .hotCon .hList dd .imgarea{width:90px; height:52px; display:inline-block; font-size:0;}
+    .hotCon .hList dd .imgarea img{width:90px; height:52px;}
+    .hotCon .hList dd .txtarea{background:#454545; font-size:11px; color:#c8c8c8; width:90px; display:inline-block; text-align:center; height:18px; padding-top:2px; overflow:hidden; line-height:140%;}
+    :root .hotCon .hList dd .txtarea{padding-top:2px; height:16px;}
+
+    .hotCon dl dd .txt2{display:block; height:13px; overflow:hidden; font-size:11px; color:#6c6d6f; letter-spacing:-0.1em; margin:2px 0;}
+
+    .talkCon {margin-top:9px; }
+    .talkCon .tit_bar {height:35px;}
+    .talkCon .wrap_hList {height:141px;}
+    :root .talkCon .wrap_hList {height:123px;+height:141px;}
+    .rightBanner {height:179px; margin-top:10px;float:right; width:278px;text-align:center;vertical-align:top;}
+    .rightBanner a {vertical-align:top;}
+    .rightBanner a img {width:278px; vertical-align:top;height:179px}
+
+    .Take{display:block; float:left; margin-top:13px; +margin-top:14px; width:670px; height:203px; overflow:hidden; border:1px solid #cbcbcb; }
+    :root .Take{display:block; float:left; margin-top:10px; width:668px; height:203px; overflow:hidden; border:1px solid #cbcbcb; margin-top:18px;}
+    .Take .Ttit{position:relative; float:left; display:block; width:225px;}
+    .Take .Ttit dt{display:block; margin:15px 0 0 15px;}
+    .Take .Ttit dd{position:absolute; top:36px; display:block; font-size:0;}
+
+    .Take .wrap_Tcon{position:relative; float:left; display:block; width:443px; height:203px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -16px -823px no-repeat;}
+      .Ttab{position:relative; display:block; width:423px; padding:7px 0 10px 20px; overflow:hidden;}
+      .Ttab dd{float:left; margin:0; display:inline-block; }
+      .Ttab dd a {padding:5px 10px; display:inline-block;}
+      .Ttab dd.bar_gray{ margin:5px 0;}
+      .Ttab dd a:hover{display:inline-block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/icon_red.gif) top right no-repeat; text-decoration:underline; color:#30373f;font-weight:bold; letter-spacing:-0.1em;}
+      .Ttab dd.on a{display:inline-block; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/icon_red.gif) top right no-repeat; text-decoration:underline; color:#30373f; font-weight:bold; letter-spacing:-0.1em;}
+
+      .Tcon{position:relative; display:block; width:423px; padding-left:15px; overflow:hidden;}
+      .Tcon dd{float:left; width:90px; text-align:center; display:inline-block; display:inline; margin:10px 6px 0px 6px;}
+      .Tcon dd img{ width:70px; height:86px; border:1px solid #ececec;}
+      .Tcon dd .txt1{display:block; font-weight:bold; height:15px; overflow:hidden; letter-spacing:-0.1em; margin-top:3px; line-height:130%;}
+      .Tcon dd .txt2{display:block; height:13px; overflow:hidden; font-size:11px; color:#adadad; letter-spacing:-0.1em; margin:2px 0; line-height:130%;}
+      .Tcon dd .txt3{display:block; height:13px; overflow:hidden; font-size:11px; color:#888888; letter-spacing:-0.1em; line-height:130%;}
+
+    /* 하단 우측 */
+    .wrap_sBR{ position:relative; display:inline-block; float:right; width:278px; border:1px solid #d5d5d5; background:#f8faf9; overflow:hidden;}
+    .wrap_sBR p.tit{position:relative; width:276px; height:26px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/bg_spot.png) 0px 0px no-repeat;}
+    .wrap_sBR p.tit span{display:block; padding:11px 0 0 15px;}
+    .wrap_sBR .Spot{position:relative; width:276px; padding:5px 0 5px 5px; overflow:hidden; display:block;}
+    .wrap_sBR .Spot dt.Spot_view{width:266px; height:187px; font-size:0; display:block; text-align:center;}
+    .wrap_sBR .Spot dd.Spot_list{float:left; width:266px; background:#3e4553; padding:6px 0 6px 0; display:inline; overflow:hidden;}
+    .wrap_sBR .Spot dd.Spot_list span {float:left; margin-left:6px; display:inline;}
+    .wrap_sBR .Spot dd.Spot_list span img{width:59px; height:45px; font-size:0; }
+    .wrap_sBR .article_bn{clear:both; width:276px; height:115px; padding:5px 0 5px 5px; display:block; overflow:hidden;}
+    :root .wrap_sBR .article_bn{width:266px; height:106px;}
+    .wrap_sBR .article_bn dt{overflow:hidden; margin:5px 6px; height:15px; display:block; line-height:140%; overflow:hidden;}
+    .wrap_sBR .article_bn dt .stit{font-weight:bold; letter-spacing:-0.1em; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/icon_gray.gif) top right no-repeat; padding-right:12px; color:#4a5057;}
+    .wrap_sBR .article_bn dt a{ color:#4a5057;}
+    .wrap_sBR .article_bn dd { font-size:0;}
+
+    .wrap_sBR .article_bigBanner{clear:both; width:266px; padding:5px 0 5px 5px; display:block; overflow:hidden;}
+    .wrap_sBR .article_bigBanner .picBox {width: 256px; padding: 0 5px; text-align: center; font-size: 0; line-height: 0;}
+    .wrap_sBR .article_bigBanner .sumarry {display: block; width:256px; padding: 10px 5px 5px; overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
+    .wrap_sBR .article_bigBanner .sumarry .stit{font-weight:bold; letter-spacing:-0.1em; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/icon_gray.gif) top right no-repeat; padding-right:12px; color:#4a5057;}
+    .wrap_sBR .article_bigBanner .sumarry a{ color:#4a5057;}
+
+/* 공통스타일 */
+.bar_gray { font-size:11px; color:#ccc; margin:0 5px;}
+
+/* 와이드배너 추가 20130228 */
+.Bn_Wide960{ display:block; padding:0; margin:0 0 3px 0; font-size:0;}

@@ -1,0 +1,1195 @@
+/* 2012.3.5추가 */
+caption, .blind{ display:none;}
+
+/* 
+	2012.1.19 디자인서버로 이관 (담당자:이혜경)
+	추후 삭제되어야 할 구버전 CSS파일입니다.
+	2009년 이후 리뉴얼되거나 신규런칭된 서비스에선 사용하고 있지 않습니다.    */
+
+A:link {
+	COLOR: #4F4F4F; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #4F4F4F; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #4F4F4F; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #CD0000; TEXT-DECORATION: underline
+}
+
+
+/* 게시판 리스트 링크*/
+A.list:link {
+	COLOR: #4F4F4F; TEXT-DECORATION: none
+}
+A.list:active {
+	COLOR: #4F4F4F; TEXT-DECORATION: none
+}
+A.list:visited {
+	COLOR: #4F4F4F; TEXT-DECORATION: none
+}
+A.list:hover {
+	COLOR: #636363; TEXT-DECORATION: none; FONT-WEIGHT:BOLD;
+}
+
+/* 홈페이지 링크*/
+A.site:link {
+	COLOR: #0076A3; TEXT-DECORATION: none
+}
+A.site:active {
+	COLOR: #0076A3; TEXT-DECORATION: none
+}
+A.site:visited {
+	COLOR: #0076A3; TEXT-DECORATION: none
+}
+A.site:hover {
+	COLOR: #0076A3; TEXT-DECORATION: underline
+}
+
+/* 기본스타일 */
+td {
+	font-family: "굴림", "돋움", "Verdana", "Arial";
+	font-size: 12px;
+	color: #636363;
+}
+/* 기존 파일들에 다 변동이 생기므로 수정하지 말 것 */
+
+/*BG 경우의 수*/
+.bg_lefttop  {background-repeat: no-repeat;	background-position: left top;}
+.bg_lefttopx {background-repeat: repeat-x;	background-position: left top;}
+.bg_lefttopy {background-repeat: repeat-y;	background-position: left top;}
+.bg_leftbot  {background-repeat: no-repeat;	background-position: left bottom;}
+.bg_leftbotx {background-repeat: repeat-x;	background-position: left bottom;}
+.bg_leftboty {background-repeat: repeat-y;	background-position: left bottom;}
+.bg_righttop {background-repeat: no-repeat;	background-position: right top;}
+.bg_righttopx{background-repeat: repeat-x;	background-position: right top;}
+.bg_righttopy{background-repeat: repeat-y;	background-position: right top;}
+.bg_rightbot {background-repeat: no-repeat;	background-position: right bottom;}
+.bg_rightbotx{background-repeat: repeat-x;	background-position: right bottom;}
+.bg_rightboty{background-repeat: repeat-y;	background-position: right bottom;}
+.bg_midy  {background-repeat: repeat-y;	background-position: center top;}
+.bg_midcenter  {background-repeat: no-repeat;	background-position: center middle;}
+
+body{
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-arrow-color:#C3C3C3;
+scrollbar-track-color:#FFFFFF;
+scrollbar-darkshadow-color:#FFFFFF;
+scrollbar-face-color:#FFFFFF;
+scrollbar-highlight-color:#C3C3C3;
+scrollbar-shadow-color:#C3C3C3;
+margin:0;
+}
+
+/*Input Box_login*/
+.input_box { font-family: "굴림", "Arial", "Verdana";	font-size: 12px; border-top: 1px solid #FFFFFF;	border-right: 1px solid #FFFFFF;	border-bottom: 1px solid #FFFFFF;	border-left: 1px solid #FFFFFF; background-color:#FFFFFF;height:17px;scrollbar-3dlight-color: 595959; scrollbar-arrow-color: ffffff; scrollbar-base-color: CFCFCF; scrollbar-darkshadow-color: FFFFFF; scrollbar-face-color: CFCFCF; scrollbar-highlight-color: FFFFF; scrollbar-shadow-color: 595959}
+.input_box2 { font-family: "굴림", "Arial", "Verdana";	font-size: 12px; border-top: 1px solid #CACACA;	border-right: 1px solid #CACACA;	border-bottom: 1px solid #CACACA;	border-left: 1px solid #CACACA; background-color:#FFFFFF;height:19px;scrollbar-3dlight-color: 595959; scrollbar-arrow-color: ffffff; scrollbar-base-color: CFCFCF; scrollbar-darkshadow-color: FFFFFF; scrollbar-face-color: CFCFCF; scrollbar-highlight-color: FFFFF; scrollbar-shadow-color: 595959}
+.input_box3 { font-family: "굴림", "Arial", "Verdana";	font-size: 12px; scrollbar-3dlight-color: 595959; scrollbar-arrow-color: ffffff; scrollbar-base-color: CFCFCF; scrollbar-darkshadow-color: FFFFFF; scrollbar-face-color: CFCFCF; scrollbar-highlight-color: FFFFF; scrollbar-shadow-color: 595959;background-color:#F6F6F6;}
+.input_chat { font-family: "굴림", "Arial", "Verdana";	color:#00834F; border-top: 1px solid #F6F6F6;	border-right: 1px solid #F6F6F6;	border-bottom: 1px solid #CACACA;	border-left: 1px solid #F6F6F6; background-color:#F6F6F6;height:17px;padding-top:5}
+
+.text_box { font-family: "굴림", "Arial", "Verdana";	font-size: 12px; border-top: 1px solid #FFFFFF;	border-right: 1px solid #FFFFFF;	border-bottom: 1px solid #FFFFFF;	border-left: 1px solid #FFFFFF; background-color:#FFFFFF;scrollbar-3dlight-color: 595959; scrollbar-arrow-color: ffffff; scrollbar-base-color: CFCFCF; scrollbar-darkshadow-color: FFFFFF; scrollbar-face-color: CFCFCF; scrollbar-highlight-color: FFFFF; scrollbar-shadow-color: 595959}
+.text_box2 { font-family: "굴림", "Arial", "Verdana";	font-size: 12px; border-top: 1px solid #9C9A9C;	border-right: 1px solid #9C9A9C;	border-bottom: 1px solid #9C9A9C;	border-left: 1px solid #9C9A9C; background-color:#FFFFFF;scrollbar-3dlight-color: 595959; scrollbar-arrow-color: ffffff; scrollbar-base-color: CFCFCF; scrollbar-darkshadow-color: FFFFFF; scrollbar-face-color: CFCFCF; scrollbar-highlight-color: FFFFF; scrollbar-shadow-color: 595959}
+.text_box3 { font-family: "굴림", "Arial", "Verdana";	font-size: 12px; border-top: 1px solid #FFFFFF;	border-right: 1px solid #FFFFFF;	border-bottom: 1px solid #FFFFFF;	border-left: 1px solid #FFFFFF; background-color:#FFFFFF;scrollbar-3dlight-color: ffffff; scrollbar-arrow-color: ffffff; scrollbar-base-color: ffffff; scrollbar-darkshadow-color: FFFFFF; scrollbar-face-color: ffffff; scrollbar-highlight-color: FFFFF; scrollbar-shadow-color: ffffff}
+.text_box4 { font-family: "굴림", "Arial", "Verdana";	font-size: 12px; border-top: 1px solid #CACACA;	border-right: 1px solid #CACACA;	border-bottom: 1px solid #CACACA;	border-left: 1px solid #CACACA; background-color:#FFFFFF;scrollbar-3dlight-color: 595959; scrollbar-arrow-color: ffffff; scrollbar-base-color: CFCFCF; scrollbar-darkshadow-color: FFFFFF; scrollbar-face-color: CFCFCF; scrollbar-highlight-color: FFFFF; scrollbar-shadow-color: 595959}
+
+/*select box*/
+.select {font-family: "돋움", "Arial", "Verdana";	font-size: 12px; border-style:none; color:#636363;}
+
+select {font-family: "돋움", "Arial", "Verdana";	font-size: 12px; border-style:none; color:#636363;}
+
+.green {color: #00AA66;}
+.light_green_b {color: #75B606;font-size:12px;font-weight:bold;}
+.green_b {color: #00AA66;font-size:13px;font-weight:bold;}
+.green_b12 {color: #00AA66;font-size:12px;font-weight:bold;}
+.buy_on {color:#ffffff; background:#9966DD}
+.purple {color: #784AB5;font-size:12px;}
+.purple_b {color: #784AB5;font-size:13px;font-weight:bold;}
+.purple_b12 {color: #784AB5;font-size:12px;font-weight:bold;}
+.gray {color: #949494; }
+.orange {color: #F7941C;}
+.orange_b {color: #FF6000; font-weight:bold }
+.blue {color: #4399FE;}
+.blue_b {color: #364ABD; font-weight:bold }
+.blue_2 {color: #364ABD }
+.drama {color: #374BBF; }
+.yellow {color: #B9A901;}
+.red {color: #CE0000;}
+.black {color:#000000;}
+.no {color: #0088BB;}
+.coupon {color: #8F198D;}
+.sale {color: #2C8D39;}
+.fund {color: #C07316;}
+.brown_big {font-size:18px; font-weight:bold; color:#9E005D}
+.letter {letter-spacing:-1px;}
+.big_black {font-size:16px; color:#393939; font-weight:bold}
+.big_purple {font-size:16px; font-weight:bold; color:#6F568D }
+/* 컴퓨터 */
+
+.computer a:link   { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.computer a:visited{ COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.computer a:active { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.computer a:hover  { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+
+/* 검색 */
+
+.search a:link   { COLOR: #008C44; TEXT-DECORATION: none; font-weight:bold}
+.search a:visited{ COLOR: #008C44; TEXT-DECORATION: none; font-weight:bold}
+.search a:active { COLOR: #008C44; TEXT-DECORATION: none; font-weight:bold}
+.search a:hover  { COLOR: #008C44; TEXT-DECORATION: none; font-weight:bold}
+
+/*링크 색*/
+.link  			{ COLOR: #4F4F4F;}
+.link a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:normal}
+.link a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:normal}
+.link a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:normal}
+.link a:hover  { COLOR: #00AA66; TEXT-DECORATION: underline; font-weight:normal}
+
+/*상단경로 색*/
+.path  			{ COLOR: #FFFFFF;}
+.path a:link   { COLOR: #FFFFFF; TEXT-DECORATION: none; font-weight:normal}
+.path a:visited{ COLOR: #FFFFFF; TEXT-DECORATION: none; font-weight:normal}
+.path a:active { COLOR: #FFFFFF; TEXT-DECORATION: none; font-weight:normal}
+.path a:hover  { COLOR: #FFFFFF; TEXT-DECORATION: underline; font-weight:normal}
+
+
+/* input padding */
+.input1 {padding:0 0 0 1;}
+.input3 {padding:0 0 0 3;}
+
+/* order padding */
+.order_pro {padding:6 0 0 0;line-height:17px;}
+.order_top {padding:10 0 0 0;}
+.order_top2 {padding:12 0 0 0;}
+.order_rig {padding:0 20 0 0;}
+.order_lef {padding:0 0 0 20;}
+.order_cen {padding:5 0 5 0;}
+.order_8 {padding:8 0 8 20;}
+.order_10 {padding:10 0 10 10;}
+.order_11 {padding:11 0 11 20;}
+.order_16 {padding:8 0 8 16;}
+.order_17 {padding:11 0 17 10;COLOR: #4F4F4F;}
+.order_18 {padding:18 0 8 0;}
+.order_mon {line-height:17px;padding:0 10 0 0;}
+.order_mon2 {line-height:17px;padding:0 20 0 0;}
+
+/*상하단 간격*/
+.preview {padding:7 0 7 0;}
+
+
+
+/*게시판 위아래간격 6 0 0 0*/
+.bo_pad {padding: 6 0 0 0; vertical-align:top;}
+
+/*게시판 항목 색*/
+.bo_title {color:#858585; font-weight:bold; padding: 9 0 0 0; vertical-align:top;}
+
+/*게시판넘버 패딩*/
+.bo_num_pad {padding:2 0 0 0;}
+
+/*진한초록*/
+.deep_green {color:#00834F;}
+
+.skyblue {color: #00AEEF;}
+.light_red {color: #FF0000;}
+
+/*줄간격*/
+.txt_line {line-height:16px;}
+.txt_line2 {line-height:17px;}
+.txt_line3 {line-height:15px;}
+.txt_line4 {line-height:20px;}
+.txt_line5 {line-height:18px;}
+
+/*세금계산서-사업자번호 input_box 간격*/
+.worknum_pad {padding: 3 0 0 0;}
+
+/*my page 상단메뉴 텍스트*/
+.my_txt			{ COLOR: #949494;}
+.my_txt a:link   { COLOR: #949494; TEXT-DECORATION: none; font-weight:normal}
+.my_txt a:visited{ COLOR: #949494; TEXT-DECORATION: none; font-weight:normal}
+.my_txt a:active { COLOR: #949494; TEXT-DECORATION: none; font-weight:normal}
+.my_txt a:hover  { COLOR: #949494; TEXT-DECORATION: underline; font-weight:normal}
+
+/*공동구매 큰 이미지 텍스트*/
+.group_big_txt			{ COLOR: #000000; font-size:14px; line-height:20px; font-weight:bold}
+.group_big_txt a:link   { COLOR: #000000; TEXT-DECORATION: none; font-weight:bold}
+.group_big_txt a:visited{ COLOR: #000000; TEXT-DECORATION: none; font-weight:bold}
+.group_big_txt a:active { COLOR: #000000; TEXT-DECORATION: none; font-weight:bold}
+.group_big_txt a:hover  { COLOR: #000000; TEXT-DECORATION: underline; font-weight:bold}
+
+/*카테고리별 공동구매보기 텍스트위치*/
+.group_cate_pad {padding-right:46px; padding-top:16px;}
+
+
+/*공동구매 게시판보기 타이틀*/
+.bo_gr_title_pad {padding-top:9px; vertical-align:top;}
+
+/*공동구매 게시판보기 본문 간격*/
+.bo_gr_par_pad {padding-top:20px; padding-bottom:30px; padding-left:30px; padding-right:30px; vertical-align:top; border-left:1px solid #EAE6E6; border-right:1px solid #EAE6E6; line-height:17px;}
+
+.input_comment {padding-left:3px;background-repeat: no-repeat;	background-position: left top;}
+
+/*공동구매 코멘트 텍스트*/
+.group_comment_txt			{ COLOR: #949494; line-height:17px;}
+
+/*공동구매 글쓰기 본문 간격*/
+.group_wr_pad {padding-top:15px;}
+
+/*공동구매 이용안내 테두리*/
+.group_info_border {border: 1px solid #DFDFDF;}
+
+/*공동구매 이용안내 텍스트*/
+.group_info_txt01 {color:#333333; line-height:25px;}
+.group_info_line {line-height:24px;}
+.group_info_txt02 {color:#88BB00; font-weight:bold;}
+
+/*공동구매 게시판보기 양옆 테두리*/
+.bo_gr_view_border {border-left:1px solid #EAE6E6; border-right:1px solid #EAE6E6;}
+
+/*공동구매 게시판보기 이전글 패딩*/
+.bo_gr_view_pre_pad {padding-top:12px; vertical-align:top;}
+
+/*미니리스트 팝업 텍스트*/
+.pop_mini_txt			{ COLOR: #636363; font-size:12px;}
+.pop_mini_txt a:link   { COLOR: #636363; TEXT-DECORATION: none; font-weight:normal}
+.pop_mini_txt a:visited{ COLOR: #636363; TEXT-DECORATION: none; font-weight:normal}
+.pop_mini_txt a:active { COLOR: #636363; TEXT-DECORATION: none; font-weight:normal}
+.pop_mini_txt a:hover  { COLOR: #000000; TEXT-DECORATION: underline; font-weight:normal}
+
+/*아이프레임 스크롤바*/
+.mini_scroll{scrollbar-3dlight-color: 595959;
+scrollbar-arrow-color: ffffff; 
+scrollbar-base-color: CFCFCF; 
+scrollbar-darkshadow-color: FFFFFF;
+scrollbar-face-color: CFCFCF; 
+scrollbar-highlight-color: FFFFF;
+crollbar-shadow-color: 595959}
+
+/*미니리스트 팝업 오른쪽 텍스트 큰사이즈*/
+.pop_mini_right_big {COLOR: #747474; font-weight:bold; font-size:22px;}
+
+/*미니리스트 팝업 오른쪽 상품명 텍스트*/
+.pop_mini_right_name {COLOR: #393939; font-weight:bold; font-size:13px;}
+
+/*미니리스트 팝업 오른쪽 테두리*/
+.pop_mini_right_border {border:1px solid #C5C5C5;}
+
+/*빨리찾기 팝업 왼쪽 빨리찾기 텍스트*/
+.pop_quick_left_txt {COLOR: #949494; font-size:11px;}
+
+/*빨리찾기 팝업 오른쪽 타이틀 텍스트*/
+.pop_quick_right_title {COLOR: #898989;}
+
+/*고객추천10 오른쪽 상품명 큰 텍스트*/
+.ubest_pro_big {COLOR: #393939; font-weight:bold; font-size:16px;}
+
+/*고객추천10 상품명 작은 텍스트*/
+.ubest_pro_s {COLOR: #393939; font-weight:bold; font-size:12px;}
+
+/*고객추천10 오른쪽 상품평 제목*/
+.ubest_deep_green {color:#00834F; font-size:14px;}
+
+/*고객추천10 상품평 작은 제목*/
+.ubest_deep_green_s {color:#00834F; font-size:13px;}
+
+/*김치 냉장고 정보 간격*/
+.kimchi_info_pad { padding-left:6px;}
+
+/*김치 냉장고 정보 텍스트 간격*/
+.kimchi_info_pad_txt { padding-top:2px;}
+
+/*김치 냉장고 정보 텍스트 크기*/
+.kimchi_info_txt { color:#000000; font-size:13px; font-weight:bold;}
+
+/*김치 냉장고 정보 색*/
+.kimchi_info_txt  			{ COLOR: #636363;}
+.kimchi_info_txt a:link   { COLOR: #636363; TEXT-DECORATION: none; font-weight:normal}
+.kimchi_info_txt a:visited{ COLOR: #636363; TEXT-DECORATION: none; font-weight:normal}
+.kimchi_info_txt a:active { COLOR: #FFFFFF; TEXT-DECORATION: none; font-weight:bold}
+.kimchi_info_txt a:hover  { COLOR: #FFFFFF; TEXT-DECORATION: none; font-weight:bold}
+
+/*브랜드샵*/
+.brand_t {color:#000000;font-size:14px;font-weight:bold;font-family:돋움;}
+.brand_g {color:#02AB68;font-size:14px;font-weight:bold;font-family:돋움;}
+
+/*입금안내 팝업 패딩*/
+
+.pop_bank_kook { padding-top:82px;}
+
+.pop_bank_keb { padding-top:71px;}
+
+.pop_bank_woori { padding-top:79px;}
+
+.pop_bank_kiup { padding-top:52px;}
+
+.pop_bank_hana { padding-top:122px;}
+
+
+
+/*입금안내 팝업 금액*/
+
+.pop_bank_money {color: #00AA66; font-size:14px;}
+
+/*메인 메뉴 색*/
+
+.menu a:link   { COLOR: #505050; TEXT-DECORATION: none; font-weight:normal}
+.menu a:visited{ COLOR: #505050; TEXT-DECORATION: none; font-weight:normal}
+.menu a:active { COLOR: #505050; TEXT-DECORATION: none; font-weight:normal}
+.menu a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:normal}
+
+/*제품상세보기 깜짝할인*/
+.sales_m {font-size:11px;font-family:돋움;letter-spacing:-1px;padding:2 0 0 0;}
+
+
+
+.locationnav {
+	font-family: "돋움", "굴림", "Verdana", "Arial";
+	font-size: 12px;
+	line-height: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.3dcategory {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	line-height: 18px;
+	color: #333333;
+	text-decoration: none;
+
+
+}
+.news {
+
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+	text-decoration: none;
+}
+.price {
+	font-family: "돋움";
+	font-size: 13px;
+	font-weight: bolder;
+	color: #218A3F;
+}
+.order {
+	font-family: "arial";
+	font-size: 12px;
+	font-weight: bold;
+	color: #999999;
+	text-decoration: none;
+}
+.orderselect {
+	font-family: "arial";
+	font-size: 12px;
+	font-weight: bold;
+	color: #006699;
+	text-decoration: none;
+}
+.title01 {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	font-weight: bolder;
+	color: #CC3333;
+	text-decoration: none;
+}
+.title02 {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+.text {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	line-height: 25px;
+
+
+}
+.form {
+	height: 20px;
+	width: 120px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+
+}
+.goodsection {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 11px;
+	color: #666666;
+	text-decoration: none;
+
+}
+.textpoint {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	color: #009999;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.textgoods {
+
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+.textopinion {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	color: #189352;
+	text-decoration: none;
+	line-height: 25px;
+	font-weight: bold;
+
+}
+.goodsname {
+
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	line-height: 18px;
+	color: #555588;
+	text-decoration: none;
+}
+.goodsnamepoint {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	line-height: 20px;
+	color: #517C8C;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.cybercash {
+
+	font-family: "돋움";
+	font-size: 13px;
+	font-weight: bolder;
+	color: #666666;
+}
+.globalnav {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 30px;
+	font-weight: normal;
+
+
+}
+.biggreen {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 15px;
+	font-weight: bold;
+	color: #189352;
+
+}
+.backgrey {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	color: #333333;
+	background-color: #D9D9D9;
+	line-height: 25px;
+}
+.textsmall {
+	font-family: "돋움";
+	font-size: 11px;
+	color: #666666;
+	text-decoration: none;
+}
+.playdbtextsmall {
+	font-family: "돋움";
+	font-size: 11px;
+	color: #666666;
+	text-decoration: none;
+}
+.formcart1 {
+	height: 20px;
+	width: 30px;
+	border: 1px solid #999999;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+
+}
+.pricetotal {
+
+	font-family: "돋움";
+	font-size: 13px;
+	font-weight: bolder;
+	color: #336699;
+}
+.pricecybercash {
+
+
+	font-family: "돋움";
+	font-size: 13px;
+	font-weight: bolder;
+	color: #996633;
+}
+.form200 {
+	height: 20px;
+	width: 200px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+
+}
+.form50 {
+	height: 20px;
+	width: 50px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+
+}
+.form350 {
+	height: 20px;
+	width: 350px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+
+}
+.form30 {
+	height: 20px;
+	width: 30px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+
+}
+.form150 {
+	height: 20px;
+	width: 150px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+
+}
+.form100 {
+	height: 20px;
+	width: 100px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+
+}
+.textred {
+
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	color: #FF6666;
+	text-decoration: none;
+	line-height: 25px;
+	font-weight: bold;
+}
+.form80 {
+	height: 20px;
+	width: 80px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+
+}
+.textarea500 {
+
+
+
+
+	height: 250px;
+	width: 500px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+}
+.textlblue {
+
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	color: #223C6A;
+	text-decoration: none;
+	line-height: 25px;
+}
+
+.textGreen1 {
+
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	font-weight:bold;
+	color: #00A964;
+	text-decoration: none;
+	line-height: 25px;
+}
+
+.bestsellersection {
+
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.texts {
+	font-family: "돋움";
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	line-height: 18px;
+}
+.texts2 {
+	font-family: "돋움";
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	line-height: 17px;	
+
+}
+.title03 {
+
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+.OFF {
+	font-family: "arial";
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF6633;
+}
+.textm {
+
+	font-family: "돋움";
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	line-height: 22px;
+}
+.enlgishplain {
+	font-family: "arial";
+	font-size: 12px;
+}
+.form80p {
+	height: 250px;
+	width: 80%;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+
+}
+.form450 {
+	height: 20px;
+	width: 450px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+
+}
+.luxurymenu {
+	font-family: "arial";
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+
+
+}
+.luxurytitle {
+	font-family: "Geneva";
+	font-size: 14px;
+	font-weight: bolder;
+	font-style: normal;
+	color: #666666;
+
+}
+.form450forregist {
+
+	height: 250px;
+	width: 480px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+}
+.form250 {
+	width: 250px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+}
+.textareacyber {
+	height: 50px;
+	width: 450px;
+	border: 1px solid #333333;
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 12px;
+	background-color: #F5F5F5;
+	
+}
+.logintext1 {
+	font-family: "돋움";
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.logintexte1 {
+	font-family: "Helvetica";
+	font-size: 9px;
+	color: #FFFFFF;
+}
+.logintext2 {
+	font-family: "돋움";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #646464;
+}
+.logintextn1 {
+	font-family: "Geneva";
+	font-size: 25px;
+	color: #999999;
+	font-weight: bold;
+
+}
+.ordertext1 {
+	font-family: "돋움";
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bolder;
+
+}
+.price2 {  
+      font-family: "돋움"; 
+	  font-size: 12px; 
+	  font-style: normal; 
+	  color: #CB0000; 
+	  text-decoration: none; 
+	  font-weight: normal
+	  
+	  }
+
+
+.tex1 {  font-family: "굴림"; 
+	font-size: 12px; 
+	line-height: 1.4; 
+	color: #FFFFFF; 
+	letter-spacing:0px; 
+	word-spacing:0px;}
+
+.cm_subject {
+	font-family: "굴림";
+	font-size: 14px;
+	line-height: 1.4;
+	color: #636363;
+	font-weight: bold;
+	letter-spacing:0px; 
+	word-spacing:0px;
+}
+.cm_text {
+	font-family: "굴림";
+	font-size: 12px;
+	line-height: 1.4;
+	color: #636363;
+	font-weight: normal;
+	letter-spacing:0px; 
+	word-spacing:0px;
+}
+
+
+
+
+
+}
+.title04 {
+	font-family: "돋움", "굴림", "arial", "verdana";
+	font-size: 11px;
+	font-weight: normal;
+	color: #34548F;
+	text-decoration: underline;
+
+
+
+
+}
+.title {
+	line-height: 25px;
+}
+
+
+/*고객센터 이벤트 당첨자 발표*/
+.cus_event			{ COLOR: #00AA66;}
+.cus_eventk a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:normal}
+.cus_event a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:normal}
+.cus_event a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:normal}
+.cus_event a:hover  { COLOR: #00AA66; TEXT-DECORATION: underline; font-weight:normal}
+
+
+
+
+.electronic {color:#0064E8;}
+.computer {color:#0064E8;}
+.game {color:#0064E8;}
+.sports {color:#0C8CA6;}
+.living {color:#D46D05;}
+.fashion {color:#E82222;}
+.cosmetic {color:#E82222;}
+.kid {color:#D46D05;}
+.food {color:#D46D05;}
+.book {color:#887E03;}
+.cd {color:#887E03;}
+.ticket {color:#7F56CC;}
+.tour {color:#0B6C99;}
+.knowhow {color:#618C13;}
+.faq {color:#00834F;}
+
+.search {color:#00834F;}
+
+
+/* 카테고리별 */
+.ca_sports a:link   { COLOR: #0D88A1; TEXT-DECORATION: none; font-weight:bold}
+.ca_sports a:visited{ COLOR: #0D88A1; TEXT-DECORATION: none; font-weight:bold}
+.ca_sports a:active { COLOR: #0D88A1; TEXT-DECORATION: none; font-weight:bold}
+.ca_sports a:hover  { COLOR: #0D88A1; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_plan a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_plan a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_plan a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_plan a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_news a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_news a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_news a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_news a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_mypage a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_mypage a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_mypage a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_mypage a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_members a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_members a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_members a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_members a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_login a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_login a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_login a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_login a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_living   { COLOR: #CD4D00;}
+.ca_living a:link   { COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+.ca_living a:visited{ COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+.ca_living a:active { COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+.ca_living a:hover  { COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_kid a:link   { COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+.ca_kid a:visited{ COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+.ca_kid a:active { COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+.ca_kid a:hover  { COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_ir a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_ir a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_ir a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_ir a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_ipp a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_ipp a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_ipp a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_ipp a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_info a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_info a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_info a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_info a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_group a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_group a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_group a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_group a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_gift a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_gift a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_gift a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_gift a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_game a:link   { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.ca_game a:visited{ COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.ca_game a:active { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.ca_game a:hover  { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_food a:link   { COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+.ca_food a:visited{ COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+.ca_food a:active { COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+.ca_food a:hover  { COLOR: #CD4D00; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_fashion a:link   { COLOR: #F40067; TEXT-DECORATION: none; font-weight:bold}
+.ca_fashion a:visited{ COLOR: #F40067; TEXT-DECORATION: none; font-weight:bold}
+.ca_fashion a:active { COLOR: #F40067; TEXT-DECORATION: none; font-weight:bold}
+.ca_fashion a:hover  { COLOR: #F40067; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_event a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_event a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_event a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_event a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_best a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_best a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_best a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_best a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_cosmetic a:link   { COLOR: #F40067; TEXT-DECORATION: none; font-weight:bold}
+.ca_cosmetic a:visited{ COLOR: #F40067; TEXT-DECORATION: none; font-weight:bold}
+.ca_cosmetic a:active { COLOR: #F40067; TEXT-DECORATION: none; font-weight:bold}
+.ca_cosmetic a:hover  { COLOR: #F40067; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_coo a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_coo a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_coo a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_coo a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_computer a:link   { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.ca_computer a:visited{ COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.ca_computer a:active { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.ca_computer a:hover  { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_electronic a:link   { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.ca_electronic a:visited{ COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.ca_electronic a:active { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+.ca_electronic a:hover  { COLOR: #0071BC; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_company a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_company a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_company a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_company a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_card a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_card a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_card a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_card a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_brand a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_brand a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_brand a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_brand a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_cs a:link   { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_cs a:visited{ COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_cs a:active { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+.ca_cs a:hover  { COLOR: #00AA66; TEXT-DECORATION: none; font-weight:bold}
+
+/* 여행 */
+.ca_tour          { COLOR: #0B6C99; TEXT-DECORATION: none; font-weight:bold}
+.ca_tour a:link   { COLOR: #0B6C99; TEXT-DECORATION: none; font-weight:bold}
+.ca_tour a:visited{ COLOR: #0B6C99; TEXT-DECORATION: none; font-weight:bold}
+.ca_tour a:active { COLOR: #0B6C99; TEXT-DECORATION: none; font-weight:bold}
+.ca_tour a:hover  { COLOR: #0B6C99; TEXT-DECORATION: none; font-weight:bold}
+
+.ca_tour2		   { COLOR: #65B0B7; TEXT-DECORATION: none; font-weight:bold}
+.ca_tour2 a:link   { COLOR: #65B0B7; TEXT-DECORATION: none; font-weight:bold}
+.ca_tour2 a:visited{ COLOR: #65B0B7; TEXT-DECORATION: none; font-weight:bold}
+.ca_tour2 a:active { COLOR: #65B0B7; TEXT-DECORATION: none; font-weight:bold}
+.ca_tour2 a:hover  { COLOR: #65B0B7; TEXT-DECORATION: none; font-weight:bold}
+
+.tab_tour		   { COLOR: #00AACD; TEXT-DECORATION: none; font-weight:bold}
+.tab_tour a:link   { COLOR: #00AACD; TEXT-DECORATION: none; font-weight:bold}
+.tab_tour a:visited{ COLOR: #00AACD; TEXT-DECORATION: none; font-weight:bold}
+.tab_tour a:active { COLOR: #00AACD; TEXT-DECORATION: none; font-weight:bold}
+.tab_tour a:hover  { COLOR: #00AACD; TEXT-DECORATION: none; font-weight:bold}
+
+/*여행 카테고리 상품 기간 색*/
+.tour_pro { COLOR: #0091BA; font-size:12px;}
+.tour_pro a:link   { COLOR: #0091BA; TEXT-DECORATION: none; font-weight:normal}
+.tour_pro a:visited{ COLOR: #0091BA; TEXT-DECORATION: none; font-weight:normal}
+.tour_pro a:ctive { COLOR: #0091BA; TEXT-DECORATION: none; font-weight:normal}
+.tour_pro a:hover  { COLOR: #0091BA; TEXT-DECORATION: none; font-weight:normal}
+
+/*여행 카테고리 제목 텍스트*/
+.tour_title { color:#444444; font-size:13px;}
+
+/*여행 카테고리 텍스트 패딩*/
+.tour_ca_pad { padding-top:4px;}
+
+
+/*여행 예약 맨위 패딩*/
+.tour_re_top_pad { padding-top:8px; }
+
+/*여행 예약 왼쪽 텍스트*/
+.tour_re_txt_01 { COLOR:#464646; }
+
+
+
+/*여행 예약 완료 위 텍스트 */
+.tour_re_finish_01 {COLOR: #0D99B4;}
+
+/*여행 세부분류 평가 텍스트*/
+.tour_des_total {COLOR:#0088CC; font-size:19px; font-weight:bold;}
+
+/*여행 세부분류 일정표 패딩*/
+.tour_sche_pad{padding:10 0 0 17}
+
+
+/*여행 세부분류 Q&A 제목*/
+.tour_des_title {font-size:14px; font-weight:bold;}
+
+/*여행 세부분류 담당자 소개 색*/
+.tour_des_charge { COLOR:808080;}
+
+/*여행 세부분류 여행지 정보 나라 텍스트*/
+.tour_des_nation { COLOR: #0091BA; font-size:13px; font-weight:bold;}
+
+/*여행 세부분류 여행후기 한줄날짜*/
+.tour_des_date { color: #B2B2B2; font-size:11px; }
+
+/* 숙박 달력 */
+.calendar {font-family:vernada;font-size:11px;padding-top:3px;color:#373E3C;}
+
+
+/* 숙박 뉴스 */
+.housing_news {font-family:vernada;font-size:11px;}
+
+
+/* 티켓 */
+.ca_ticket          { COLOR: #784AB5; TEXT-DECORATION: none; font-weight:bold}
+.ca_ticket a:link   { COLOR: #784AB5; TEXT-DECORATION: none; font-weight:bold}
+.ca_ticket a:visited{ COLOR: #784AB5; TEXT-DECORATION: none; font-weight:bold}
+.ca_ticket a:active { COLOR: #784AB5; TEXT-DECORATION: none; font-weight:bold}
+.ca_ticket a:hover  { COLOR: #784AB5; TEXT-DECORATION: none; font-weight:bold}
+
+/*티켓 왼쪽 위 검색 텍스트*/
+.ti_search_txt { COLOR: #4A4A4A;}
+
+
+.ticket a:link   { COLOR: #7F56CC; TEXT-DECORATION: none; font-weight:normal}
+.ticket a:visited{ COLOR: #7F56CC; TEXT-DECORATION: none; font-weight:normal}
+.ticket a:active { COLOR: #7F56CC; TEXT-DECORATION: none; font-weight:normal}
+.ticket a:hover  { COLOR: #7F56CC; TEXT-DECORATION: underline; font-weight:normal}
+
+/*티켓 연한 색*/
+.ticket2 { color:#9966DD;}
+
+/*티켓 큰 텍스트*/
+.ticket_big { COLOR:#7F56CC; font-size:13px; font-weight:bold;}
+
+/*작은 텍스트*/
+.small { font-size:11px;}
+
+/*티켓 상세보기 한줄달기 날짜색*/
+.ticket_des_date { COLOR:#353535; font-size:11px;}
+
+/*티켓 상세보기 위 홈페이지*/
+.ticket_homepy { COLOR: #0076A3; font-size:12px;}
+.ticket_homepy a:link   { COLOR: #0076A3; TEXT-DECORATION: underline; font-weight:normal}
+.ticket_homepy a:visited{ COLOR: #0076A3; TEXT-DECORATION: underline; font-weight:normal}
+.ticket_homepy a:ctive { COLOR: #0076A3; TEXT-DECORATION: underline; font-weight:normal}
+.ticket_homepy a:hover  { COLOR: #0076A3; TEXT-DECORATION: underline; font-weight:normal}
+
+
+/*티켓 세부평가 큰 텍스트*/
+.ticket_des_total {COLOR:#3900CC; font-size:19px; font-weight:bold;}
+
+/*큰 텍스트*/
+.big { font-size: 13px; }
+
+
+/*레저메인 오른쪽 위 조회*/
+.leisure_refer { COLOR: #374BBF; font-size:12px;}
+.leisure_refer a:link   { COLOR: #374BBF; TEXT-DECORATION: none; font-weight:normal}
+.leisure_refer a:visited{ COLOR: #374BBF; TEXT-DECORATION: none; font-weight:normal}
+.leisure_refer a:ctive { COLOR: #374BBF; TEXT-DECORATION: none; font-weight:normal}
+.leisure_refer a:hover  { COLOR: #374BBF; TEXT-DECORATION: underline; font-weight:normal}
+
+/*공연 예매취소 메인 텍스트*/
+.reser_txt { COLOR: #C97510; font-size:12px;}
+.reser_txt a:link   { COLOR: #C97510; TEXT-DECORATION: none; font-weight:normal}
+.reser_txt a:visited{ COLOR: #C97510; TEXT-DECORATION: none; font-weight:normal}
+.reser_txt a:ctive { COLOR: #C97510; TEXT-DECORATION: none; font-weight:normal}
+.reser_txt a:hover  { COLOR: #C97510; TEXT-DECORATION: underline; font-weight:normal}
+
+
+/* 영화 공지사항*/
+.movie_view_title {color:#636363;font-size:13px;}
+
+/*공연 이용후기 본문 간격*/
+.ticket_post_pad {padding-top:15px; padding-bottom:30px; padding-left:12px; padding-right:12px; vertical-align:top; line-height:17px;}
+
+.ticket_news_pad {padding-top:20px; padding-bottom:30px; padding-left:30px; padding-right:30px; vertical-align:top;  line-height:17px;}
+
+
+/*줄색*/
+.line_deep_gr { background:#ABABAB }
+.line_light_gr { background:#F4F4F4 }
+.line_lgr { background:#E6E6E6 } /* 테이블 행을 나누어주는 회색 라인 */
+
+/*테이블 스타일*/
+.td_head { text-align:center; font-weight:bold; color:#636363; background:#FAF9F9; height:34px }
+.td_head_w { text-align:center; font-weight:bold; color:#636363; height:34px }
+.td_white { background:#ffffff }
+.td_row_center { text-align:center; }
+.td_row_left { text-align:left; padding-left:10px }
+.td_row_left20 { text-align:left; padding-left:20px }
+.td_row_right { text-align:right; padding-right:10px }
+.td_row_top { padding-top:3px }
+
+/*티키 우수회원 월 이름*/
+.tiki_mania_top {color:#591DA9;}
+
+/*재미더하기 poll 보기 */
+.fun_poll { color:#9D080D; }
+
+/*패딩Padding 관련 스타일*/
+
+/*어드민*/
+.a_box_pd { padding:20 19 28 16 } 
+
+/*이벤트*/
+.event_box_pd { padding:20 13 24 12 } 
+
+/*전체 랭킹 톱 퍼센트*/
+.total_ranking { color:#9E005D; }
+
+/*랭킹 세부 위쪽 패딩*/
+.ranking_top_pad { padding: 50 0 0 16 }
+
+/* 캘린더 스타일 */
+.month_s { color:#ffffff; font-family:Arial; font-size:18px; font-weight:bold } /*작은 숫자, 전후달 */
+.month_b { color:#ffffff; font-family:Arial; font-size:28px; font-weight:bold } /*이번달*/
+.year { color:#ffffff; font-family:Arial; font-size:18px; font-weight:bold }
+.days { text-align:left; vertical-align:top; padding-top:10px}
+.day { font-size:11px; font-family:돋움; font-weight:bold }
+.day_sun { font-size:11px; font-family:돋움; font-weight:bold; color:#DF4B49 }
+.day_sat { font-size:11px; font-family:돋움; font-weight:bold; color:#4AA3E7 }
+
+.housing_post_pad {padding-top:15px; padding-bottom:30px; padding-left:12px; padding-right:12px; vertical-align:top; line-height:17px;}
+
+.wel_cat01 {background-color:#FFFFFF;}
+.wel_cat01 a:hover {background-color:#EDEDED;}
+
+.link_nipms, a.link_nipms:link, a.link_nipms:visited,a.link_nipms:active{ font-size:11px; color:#1EB600;text-decoration:none}
+a.link_nipms:hover{ font-size:11px; color:#1EB600;text-decoration:underline}
+
+/* 타이틀이미지 변경 스타일 */
+a.imgover img {border:0;display:inline;}
+a.imgover img.over {display:none;}
+a.imgover img.click {display:none;}
+a.imgover:hover {border:0}
+a.imgover:hover img {display:none;}
+a.imgover:hover img.over {display:inline;}
+
+/* new */
+.new_inter {color:#DE7776; font-weight:bold;}
