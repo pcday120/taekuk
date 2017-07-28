@@ -93,23 +93,14 @@ em,address{font-style:normal;}
 
 
   .wOpen dt{height:21px; font-size:0;}
-    /*ul.list {position:relative; margin-top:10px; width:510px; display:block; text-align:left;}*/
   .wOpen dd{position:relative; padding-top:8px; width:510px; height:40px; overflow:hidden; vertical-align:top;}
-  .wOpen dd iframe{display:block; width:540px; height:60px; text-align:left; }
-    /*ul.list {position:relative; margin-top:10px; width:510px; display:block; text-align:left;}*/
-    ul.list{display:block; text-align:left; overflow:hidden;}
-    ul.list li {float:left; height:20px; width:500px; padding-left:8px; display:inline; line-height:130%; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_main/main_icon.gif) -3px -387px no-repeat transparent; display:block; white-space:nowrap; text-overflow: ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
-    ul.list li span.tit{ float:left; width:440px; display:inline-block; white-space:nowrap; text-overflow: ellipsis; -o-text-overflow:ellipsis; overflow:hidden; text-align:left;}
-    ul.list li span.tit a{color:#6c6d6f;}
-    ul.list li span.tit a:hover{color:#da6464;}
-    ul.list li span.date{ float:right; display:inline-block; font-size:10px; font-family:arial; text-align:center; color:#adadad;}
 
 
   /* 서브 죄측 */
   .Con_SM div.sR{position:relative; float:right; width:250px; margin-left:12px; display:inline; overflow:hidden;}
   .Con_SM div.sR .ifr_ranking{ display:block; width:250px; height:151px; overflow:hidden; text-align:left; margin:0; padding:0;}
-  .Con_SM div.sR .ifr_ranking iframe{margin:0; padding:0; width:270px; height:172px; text-align:left;}
-  .Con_SM div.sR .ifr_ranking iframe body{ margin:0; padding:0; text-align:left;}
+  .Con_SM div.sR .ifr_ranking dd{margin:0; padding:0; width:270px; height:172px; text-align:left;}
+  .Con_SM div.sR .ifr_ranking dd body{ margin:0; padding:0; text-align:left;}
     div.wrap_ranking{position:absolute; top:0px; left:0px; margin:0; padding:0; text-align:left; width:250px; height:151px; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -227px -162px no-repeat transparent; display:block; overflow:hidden;}
     div.wrap_ranking p.r_bottom{position:absolute; bottom:-1px; left:0px; margin:0; padding:0; text-align:left; width:250px; height:12px; _heigth:12px;  display:inline-block; overflow:hidden; background:url(http://ticketimage.interpark.com/TicketImage/main/100506_sub/sub_bg.png) -227px -490px no-repeat; font-size:0; z-index:5;}
 

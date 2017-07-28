@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>이미지업로드</h1>
+<form method="post" action="imageuploadOk.jsp" enctype="multipart/form-data">
+	<table border="1" width="500">
+		<tr>
+			<td>이미지번호</td>
+			<td><input type="text" name="imgnum"></td>
+		</tr>
+		<tr>
+			<td>이미지타입</td>
+			<td><input type="text" name="imgtype"></td>
+		</tr>
+		<tr>
+			<td>등록번호</td>
+			<td><input type="text" name="gnum"></td>
+		</tr>
+		<tr>
+			<td>첨부파일</td>
+			<td><input type="file" name="file1"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="submit" value="전송">
+				<input type="reset" value="취소">
+		</tr>
+	</table>
+</form>
+</body>
+</html>

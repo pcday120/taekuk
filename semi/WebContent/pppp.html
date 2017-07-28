@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<link rel="stylesheet" href="css/header.css" />
+<body>
+	<div class="gnbWrap">
+	<ul class="gnbBtns">
+		<li><a href="javascript:;" class="btn_allMenu" onclick="allMenu()"><img src="http://ticketimage.interpark.com//TicketImage/2015/20150429_main/img/header/blank.png" alt="전체메뉴보기" /></a></li>
+		<li><a href="" class="btn_notice"><img src="mainimage/blank.png" alt="공지" /></a></li>
+		<li><a href="" class="btn_concert"><img src="mainimage/blank.png" alt="콘서트" /></a></li>
+		<li><a href="" class="btn_show"><img src="mainimage/blank.png"></a>
+		<li><!-- new 아이콘이 있을때는 해당 li에 topingNew아이디 추가 아이콘이 없을때는 삭제 -->
+		</li>
+		<li><a href="" class="btn_ranking"><img src="mainimage/blank.png" alt="랭킹" /></a></li>
+		<li><a href="" class="btn_location"><img src="mainimage/blank.png" alt="지역" /></a></li>
+		<li><a href="" class="btn_event"><img src="mainimage/blank.png" alt="공연장" /></a></li>
+	</ul>
+	<div class="gnbSubWrap" id="allMenu"><!-- 전체메뉴 -->
+				<div class="gnbSubBody">
+					<ul>
+						<li>
+							<div class="maxDiv">
+								<a href=""><b>콘서트</b></a>
+								<a href="">발라드</a>
+								<a href="">ROCK/메탈</a>
+								<a href="">랩/힙합</a>
+								<a href="">인디</a>
+								<a href="">뉴에이지</a>
+								<a href="">JAZZ/블루스</a>
+								<a href="">내한공연</a>
+								<a href="">포크/트로트</a>
+								<a href="">개그/마술</a>
+								<a href="">파티</a>
+								<a href="">토크/강연</a>
+							</div>
+						</li>						
+					</ul>
+					<ul class="lastUl">
+						<li>
+							<div class="maxDiv">
+								<a href=""><b>지역</b></a>
+								<a href="">지역별 주요공연</a>
+								<a href="">티켓오픈소식</a>
+								<a href="">지역별 핫이슈</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="allBottom">
+					<div class="gnbSubBody">
+						<ul>
+							<li><a href="">지역별 예매</a></li>
+							<li><a href="">날짜별 예매</a></li>
+							<li><a href="">공연장</a></li>
+							<li><a href="">티켓오픈공지</a></li>
+						</ul>						
+					</div>
+				</div>
+			</div>
+			<div class="gnbSubWrap"><!-- 콘서트 -->
+				<div class="gnbSubBody">
+						<ul class="depth2Menu" id="concertDepth2">
+							<li>
+								<a href="">발라드</a>
+								<a href="">내한공연</a>
+							</li>
+							<li>
+								<a href="">Rock/메탈</a>
+								<a href="">디너쇼</a>
+							</li>
+							<li>
+								<a href="">랩/힙합</a>
+								<a href="">포크/트로트</a>
+							</li>
+							<li>
+								<a href="">인디</a>
+								<a href="">개그/마술</a>
+							</li>
+							<li>
+								<a href="">뉴에이지</a>
+								<a href="">파티</a>
+							</li>
+							<li>
+								<a href="">JAZZ/블루스</a>
+								<a href="">토크/강연</a>
+							</li>
+						</ul>
+						<div class="depth2SubMenus">
+							<p><a href="">티켓오픈 공지</a></p>
+							<p><a href="">지역별/</a><a href="http://ticket.interpark.com/tiki/special/TPCalendar.asp?KindOfGoods=01003">날짜별 예매</a></p>
+						</div>
+					</div>
+					<div class="gnbSuggest">
+						<div id="target_gnbmenuconcert_title">콘서트 <br />추천</div>
+						<ul><li id="target_gnbmenuconcert"></li></ul>
+					</div>
+					<div class="gnbBanner">
+						<div class="borderTop"></div>
+						<div id="target_gnbmenuconcert_big"></div>
+					</div>
+				</div> 					
+			<div class="gnbSubWrap type2"><!-- 랭킹 -->
+				<div class="gnbSubBody">
+					<div class="depth2">
+					<div class="depth2_ranking depth2Title"><a href=""></a><img src="http://ticketimage.interpark.com/TicketImage/2015/20150429_main/img/header/blank.png" alt="랭킹"	/></div>
+						<ul class="depth2Menu">
+							<li>
+								<a href="">콘서트</a>
+							</li>
+						</ul>
+					</div>
+					<div class="gnbSuggest">
+						<div id="target_gnbmenuranking_title">랭킹<br />추천</div>
+						<ul><li id= "target_gnbmenuranking"></li></ul>
+					</div>
+					<div class="gnbBanner">
+						<div class="borderTop"></div>
+						<div id="target_gnbmenuranking_big"></div>
+					</div>
+				</div> 				
+			</div>
+			<div class="gnbSubWrap type2"><!-- 지역 -->
+				<div class="gnbSubBody">
+					<div class="depth2">
+						<div class="depth2_location depth2Title"><a href=""></a><img src="http://ticketimage.interpark.com//TicketImage/2015/20150429_main/img/header/blank.png" alt="지역" /></div>
+						<ul class="depth2Menu" id="locationDepth2">
+							<li class="redColor firstLi">지역별 주요공연</li>
+							<li>
+								<a href="">서울</a>
+								<a href="">경기</a>
+							</li>
+							<li>
+								<a href="">인천</a>
+								<a href="">강원</a>
+							</li>
+							<li>
+								<a href="">충북</a>
+								<a href="">충남</a>
+							</li>
+							<li>
+								<a href="">대전</a>
+								<a href="">경북</a>
+							</li>
+							<li>
+								<a href="">경남</a>
+								<a href="">대구</a>
+							</li>
+							<li>
+								<a href="">울산</a>
+								<a href="">부산</a>
+							</li>
+							<li>
+								<a href="">전북</a>
+								<a href="">전남</a>
+							</li>
+							<li>
+								<a href="">광주</a>
+								<a href="">제주</a>
+							</li>
+						</ul>
+					</div>
+					<div class="gnbSuggest">
+						<div id="target_gnbmenuregion_title">지역<br />추천</div>
+						<ul><li id="target_gnbmenuregion"></li></ul>
+					</div>
+					<div class="gnbBanner">
+						<div class="borderTop"></div>
+						<div id="target_gnbmenuregion_big"></div>
+					</div>
+				</div>
+			</div>
+			<div class="gnbSubWrap type2"><!-- 공연장 -->
+				<div class="gnbSubBody">
+					<div class="depth2">
+						<div class="depth2_cine depth2Title"><a href=""></a><img src="http://ticketimage.interpark.com//TicketImage/2015/20150429_main/img/header/blank.png" alt="공연장" /></div>
+						<ul class="depth2Menu">
+							<li>
+								<a href="">세종문화회관</a>
+							</li>
+							<li>
+								<a href="">예술의전당</a>
+							</li>
+							<li>
+								<a href="">충무아트센터</a>
+							</li>
+							<li>
+								<a href="">성남아트센터</a>
+							</li>
+							<li>
+								<a href="">경기도문화의전당</a>
+							</li>
+							<li>
+								<a href="">안산문화예술의전당</a>
+							</li>
+						</ul>
+					</div>
+					<div class="gnbSuggest">
+						<div id="target_gnbmenutheater_title">공연장 <br />추천</div>
+						<ul><li id="target_gnbmenutheater"></li></ul>
+					</div>
+					<div class="gnbBanner">
+						<div class="borderTop"></div>
+						<div id="target_gnbmenutheater_big"></div>
+					</div>
+				</div> 	
+			</div>
+		</div>
+</body>
+</html>
