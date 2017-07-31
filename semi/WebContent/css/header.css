@@ -1064,6 +1064,286 @@
   display: none;
   background: url("../mainimage/gnbBg.png") 0 0 no-repeat;
 }
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 {
+  width: 198px;
+  *width: 198px;
+  border-right: 1px solid #ddd;
+  height: 354px;
+  float: left;
+  position: relative;
+  background: #fff;
+  padding: 0 24px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2Title {
+  width: 198px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #e15148;
+  margin-top: 24px;
+  height: 19px;
+  background: url("http://ticketimage.interpark.com/TicketImage/2015/20150429_main/img/depth2ArrowBullet.gif") right 6px no-repeat;
+  text-align: left;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2Title span,
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2Title a {
+  display: block;
+  background: url("http://ticketimage.interpark.com/TicketImage/2015/20150429_main/img/depth2Titles.gif") 0 0 no-repeat;
+  height: 19px;
+  width: 50px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2_concert a {
+  background-position: 0 -19px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2_play a {
+  background-position: 0 -38px;
+  width: 35px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2_classic a {
+  background-position: 0 -57px;
+  width: 100px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2_sports a {
+  background-position: 0 -76px;
+  width: 100px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2_exhibit a {
+  background-position: 0 -95px;
+  width: 85px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2_kids a {
+  background-position: 0 -114px;
+  width: 85px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2_toping a {
+  background-position: 0 -133px;
+  width: 90px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2_ranking a {
+  background-position: 0 -152px;
+  width: 35px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2_location a {
+  background-position: 0 -171px;
+  width: 35px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2_cine a {
+  background-position: 0 -190px;
+  width: 55px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 ul.depth2Menu {
+  padding-top: 16px;
+  height: 175px;
+  vertical-align: top;
+  *height: 191px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 ul.depth2Menu li {
+  width: 198px;
+  height: 24px;
+  vertical-align: top;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 ul.depth2Menu li a {
+  line-height: 15px;
+  padding-right: 13px;
+  height: 24px;
+  float: left;
+  color: #666;
+  text-align: left;
+  letter-spacing: -1px;
+  font-family: "malgun gothic";
+  vertical-align: top;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 ul.depth2Menu li.redcolor a {
+  color: #e15148;
+  font-weight: bold;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 ul#musicalDepth2 li a,
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 ul#concertDepth2 li a,
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 ul#sportsDepth2 li a {
+  display: block;
+  width: 99px;
+  padding-right: 0;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 ul.depth2Menu li a:hover {
+  font-weight: bold;
+  color: #fa6464;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 ul.depth2Menu li.depth2MenuSub a {
+  color: #333;
+  font-weight: bold;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 a.btn_goMain {
+  width: 57px;
+  height: 57px;
+  position: absolute;
+  bottom: 22px;
+  right: 22px;
+  background: url("http://ticketimage.interpark.com/TicketImage/2015/20150429_main/img/header/btn_gnbSplite.png") -105px -82px no-repeat;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2SubMenus {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  width: 198px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2SubMenus p {
+  height: 24px;
+  text-align: left;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2SubMenus p a {
+  color: #666;
+  font-family: "malgun gothic";
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 .depth2SubMenus p a:hover {
+  color: #fa6464;
+  text-decoration: none;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .gnbSuggest {
+  float: left;
+  width: 455px;
+  *width: 455px;
+  _width: 479px;
+  height: 101px;
+  padding-top: 24px;
+  padding-left: 23px;
+  position: relative;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .gnbSuggest div,
+.gnbWrap .gnbSubWrap .gnbSubBody .gnbSuggest a {
+  display: block;
+  float: left;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .gnbSuggest div {
+  width: 80px;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-align: left;
+  font-family: "malgun gothic";
+  position: relative;
+  top: -4px;
+  line-height: 17px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .toppingSuggest div span {
+  font-family: "tahoma";
+  letter-spacing: 0;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .gnbSuggest a {
+  border-left: 1px solid #d9d9d9;
+  margin-right: 10px;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .gnbSuggest a img {
+  width: 79px;
+  height: 101px;
+  vertical-align: top;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .gnbBanner {
+  width: 478px;
+  height: 229px;
+  position: relative;
+  float: left;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .gnbBanner .borderTop {
+  font-size: 0;
+  line-height: 0;
+  height: 2px;
+  border-top: 1px solid #000;
+  position: absolute;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  opacity: .15;
+  filter: alpha(opacity=15);
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .gnbBanner a img {
+  width: 478px;
+  height: 229px;
+}
+
+.gnbWrap .gnbSubWrap.type2 {
+  margin-left: -237px;
+  width: 713px;
+  *width: 713px;
+  _width: 721px;
+  background: url("http://ticketimage.interpark.com/TicketImage/2015/20150429_main/img/gnbBg3.png") 0 0 no-repeat;
+}
+
+.gnbWrap .gnbSubWrap.type2 .gnbSubBody .depth2,
+.gnbWrap .gnbSubWrap.type2 .gnbSubBody .gnbSuggest,
+.gnbWrap .gnbSubWrap.type2 .gnbSubBody .gnbBanner {
+  float: right;
+}
+
+.gnbWrap .gnbSubWrap.type2 .gnbSubBody .depth2 {
+  border-right: 0;
+  border-left: 1px solid #ddd;
+  width: 186px;
+}
+
+.gnbWrap .gnbSubWrap.type2 .gnbSubBody .depth2 .depth2Title {
+  width: 186px;
+}
+
+.gnbWrap .gnbSubWrap.type2 .gnbSubBody .depth2 ul.depth2Menu {
+  height: auto;
+  vertical-align: top;
+}
+
+.gnbWrap .gnbSubWrap.type2 .gnbSubBody .depth2 ul.depth2Menu li {
+  width: 186px;
+  font-family: "malgun gothic";
+}
+
+.gnbWrap .gnbSubWrap.type2 .gnbSubBody .depth2 ul.depth2Menu li.redcolor {
+  margin-top: 7px;
+  color: #e15148;
+  font-weight: bold;
+  text-align: left;
+}
+
+.gnbWrap .gnbSubWrap.type2 .gnbSubBody .depth2 ul.depth2Menu li.firstLi {
+  margin-top: 0;
+}
+
+.gnbWrap .gnbSubWrap .gnbSubBody .depth2 ul#locationDepth2 li a {
+  width: 80px;
+  *width: 80px;
+  _width: 93px;
+}
+
 .gnbWrap #allMenu {
   height: 416px;
   width: 960px;

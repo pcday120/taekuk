@@ -114,7 +114,6 @@ public class ImageDao {
 		Connection con=null;
 		PreparedStatement pstmt=null;
 		ResultSet rs=null;
-		System.out.println(gnum);
 		try{
 			con=DBConnection.getConn();
 			String sql="select * from bal b,image i where b.gnum=i.gnum and b.gnum=?";

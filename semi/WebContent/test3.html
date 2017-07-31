@@ -23,14 +23,29 @@ scrollbar-shadow-color:#C3C3C3;
 <link href="css/base.css" rel="stylesheet" id="TCssNo1">
 <link href="css/common_info.css" rel="stylesheet" id="TCssNo2">
 <link href="css/common.css" rel="stylesheet" type="text/css" >
+<link rel="stylesheet" href="css/header1.css" />
 <link rel="stylesheet" href="css/header.css" />
 <link rel="stylesheet" href="css/main.css" />
+
 
 </head>
 
 <body bgcolor="#aaa" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 
 <script type="text/javascript">
+function test(){
+	var seogd = document. getElementById("test12");  // 호출된 id값을 seogd 변수로 치환
+    if ( seogd.style.display = 'none' ) { // 만약 seogd가 none이 아니면 즉, 보여지는 상태이면
+        seogd.style.display = 'block';   // seogd를 숨기고
+    }
+}
+function test1(){
+	var con = document.getElementById("test12");
+	if ( con.style.display != 'none' ) { // 만약 seogd가 none이 아니면 즉, 보여지는 상태이면
+        con.style.display = 'none';   // seogd를 숨기고
+    }
+}
+
 function MM_openBrWindow(theURL,winName,features) { //v2.0
   window.open(theURL,winName,features);
 }
@@ -151,7 +166,6 @@ function TopCheck(form)
 </script>
 
 <!--GNB메뉴추천공연-->
-<script type="text/javascript" src="Menucc.xml"></script>		<!--콘서트-->
 
 
 
@@ -199,7 +213,7 @@ function TopCheck(form)
 			</div>
 		</div>
 
-
+<script type="text/javascript" src="http://ticketimage.interpark.com//TicketImage/2015/20150604_tchue/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
 <script type="text/javascript" src="/Include/Tchu/tchu_slide.js"></script>
 <script type="text/javascript" src="/Include/TCHU/tchu.js"></script>
 
@@ -238,7 +252,7 @@ function TopCheck(form)
 	<ul class="gnbBtns">
 		<li><a href="javascript:;" class="btn_allMenu" onclick="allMenu()"><img src="http://ticketimage.interpark.com//TicketImage/2015/20150429_main/img/header/blank.png" alt="전체메뉴보기" /></a></li>
 		<li><a href="" class="btn_notice"><img src="mainimage/blank.png" alt="공지" /></a></li>
-		<li><a href="" class="btn_concert"><img src="mainimage/blank.png" alt="콘서트" /></a></li>
+		<li><a href="" class="btn_concert" onmouseover="test();"><img src="mainimage/blank.png" alt="콘서트" /></a></li>
 		<li><a href="" class="btn_show"><img src="mainimage/blank.png"></a>
 		<li><!-- new 아이콘이 있을때는 해당 li에 topingNew아이디 추가 아이콘이 없을때는 삭제 -->
 		</li>
@@ -264,7 +278,7 @@ function TopCheck(form)
 								<a href="">파티</a>
 								<a href="">토크/강연</a>
 							</div>
-						</li>						
+	 					</li>						
 					</ul>
 					<ul class="lastUl">
 						<li>
@@ -288,8 +302,10 @@ function TopCheck(form)
 					</div>
 				</div>
 			</div>
-			<div class="gnbSubWrap"><!-- 콘서트 -->
-				<div class="gnbSubBody">
+			<div class="gnbSubWrap" id="test12"><!-- 콘서트 -->
+				<div class="gnbSubBody" id="test11" onmousemove="test();" onmouseout="test1();">
+					<div class="depth2">
+							<div class="depth2_concert depth2Title"><a href="http://ticket.interpark.com/ConcertIndex.asp?tid1=main_gnb&tid2=category&tid3=concert&tid4=concert"></a><img src="http://ticketimage.interpark.com//TicketImage/2015/20150429_main/img/header/blank.png" alt="콘서트" /></div>
 						<ul class="depth2Menu" id="concertDepth2">
 							<li>
 								<a href="">발라드</a>
@@ -320,7 +336,7 @@ function TopCheck(form)
 							<p><a href="">티켓오픈 공지</a></p>
 							<p><a href="">지역별/</a><a href="http://ticket.interpark.com/tiki/special/TPCalendar.asp?KindOfGoods=01003">날짜별 예매</a></p>
 						</div>
-					</div>
+					</div>	
 					<div class="gnbSuggest">
 						<div id="target_gnbmenuconcert_title">콘서트 <br />추천</div>
 						<ul><li id="target_gnbmenuconcert"></li></ul>
@@ -329,28 +345,8 @@ function TopCheck(form)
 						<div class="borderTop"></div>
 						<div id="target_gnbmenuconcert_big"></div>
 					</div>
-				</div> 					
-			</div>
-			<div class="gnbSubWrap type2"><!-- 랭킹 -->
-				<div class="gnbSubBody">
-					<div class="depth2">
-					<div class="depth2_ranking depth2Title"><a href=""></a><img src="http://ticketimage.interpark.com/TicketImage/2015/20150429_main/img/header/blank.png" alt="랭킹"	/></div>
-						<ul class="depth2Menu">
-							<li>
-								<a href="">콘서트</a>
-							</li>
-						</ul>
-					</div>
-					<div class="gnbSuggest">
-						<div id="target_gnbmenuranking_title">랭킹<br />추천</div>
-						<ul><li id= "target_gnbmenuranking"></li></ul>
-					</div>
-					<div class="gnbBanner">
-						<div class="borderTop"></div>
-						<div id="target_gnbmenuranking_big"></div>
-					</div>
-				</div> 				
-			</div>
+				</div> 		
+			</div>				
 			<div class="gnbSubWrap type2"><!-- 지역 -->
 				<div class="gnbSubBody">
 					<div class="depth2">
@@ -437,10 +433,10 @@ function TopCheck(form)
 				</div> 	
 			</div>
 	<div style="clear:both; height:0px; font-size:0px; line-height:0px;"></div>
+</div>
 
 
-
-
+<link href="http://ticketimage.interpark.com/TicketImage/main/100506_sub/concert_201510.css" rel="stylesheet" >
 
 
 

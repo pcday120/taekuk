@@ -32,16 +32,17 @@ scrollbar-shadow-color:#C3C3C3;
 <link rel="stylesheet" href="css/header.css" />
 <link rel="stylesheet" href="css/main.css" />
 <link rel="stylesheet" href="css/search.css"/>
+<link rel="stylesheet" href="css/khs.css"/>
+<link rel="stylesheet" href="css/khs2.css"/>
 
 </head>
 
-<body bgcolor="#aaa" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<body bgcolor="#aaa" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="btnset()">
 
 <script type="text/javascript">
 function MM_openBrWindow(theURL,winName,features) { //v2.0
   window.open(theURL,winName,features);
 }
-
 
 
 
@@ -111,7 +112,31 @@ function TopCheck(form)
 
 
 <script type="text/javascript">
-	
+function btnset(){
+	var btn=document.getElementById("btn");
+	btn.style.right="150px";
+	btn.style.top="250px";
+}
+function btnMove(){
+	var layer=document.getElementById("layer_fixed");
+	var btn=document.getElementById("btn");
+	var button=event.target;
+
+	//닫기
+	if(parseInt(btn.style.right)==150){
+		console.log(btn.style.rigth+"11");
+		layer.style.right=-150+"px";
+		btn.style.right=0+"px";
+		button.src="mainimage/rightWing_open.gif";	
+	}
+	//열기
+	else if(btn.style.right==0+"px"){
+		console.log(btn.style.rigth+"22");
+		layer.style.right=0+"px";
+		btn.style.right=150+"px";
+		button.src="mainimage/rightWing_close.gif";
+	}
+}
 	function addmenu(event){
 		var menu=event.target;
 		var div=document.getElementsByClassName("gnbSubBody");
@@ -638,5 +663,53 @@ function TopCheck(form)
 </div>
 </div>
 </div>
+<div id="btn">
+	<img src="mainimage/rightWing_close.gif" name="button" onclick="btnMove()">
+</div>
+<div id="layer_fixed">
+ 	<div id="wing">
+ 		<div id="wingheader">
+	 		<img src="mainimage/wingtopbg.png" style="height: 150px;">
+	 		<div id="user">
+	 			<c:choose>
+					<c:when test="${empty sessionScope.id}">
+						<a href="로그인페이지위치">반갑습니다<br>로그인해주세요</a>
+					</c:when>
+					<c:otherwise>
+						${sessionScope.id}님<br>반감습니다.
+					</c:otherwise>
+				</c:choose>
+	 		</div>
+	 		<div id="rservation">
+	 		<c:choose>
+					<c:when test="${empty sessionScope.id}">
+						<img src="mainimage/login.png">
+					</c:when>
+					<c:otherwise>
+						<img src="mainimage/reservation.png">
+					</c:otherwise>
+				</c:choose>
+	 		</div>
+ 		</div>
+ 		<h2>최근 본 상품</h2>
+ 		<hr>
+ 		<div id="recent">
+ 				<%
+	Cookie[] ck=request.getCookies();
+	if(ck==null){
+		out.println("<h3>최근 본 상품이"+"<br>"+"존재하지 않음</h3>");
+	} else {
+		for(Cookie cook:ck){
+			//쿠키이름 얻어오기
+			String cookieName=cook.getName();
+			String cookieValue=cook.getValue();
+			%>
+			<a href='http://localhost:8081/semi/board?cmd=detail&gnum=${vo.gnum}"'><%=cookieName%><img src='mainimage/"+${vo.savename}+"'></a><br>
+			<%
+		}
+	}
+%>
+</div>
+ 	</div>
 </body>
 </html>

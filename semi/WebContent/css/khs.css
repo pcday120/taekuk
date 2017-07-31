@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+#box22{width: 960px; margin: auto;}
+.frame{float: left; position: relative;}
+.frame .menu{position: absolute; top: -15px; text-align: justify;}
+.frame .menu ul li{display: inline-block; margin-left: -20px; margin-bottom: 15px;}
+.frame .menu ul li a{text-decoration: none;font-size: 16px;font-weight: blod; color: black;}
+.frame .menu ul li a:hover{color: blue;}
+#info111{float: left; width: 80%; height: 500px; position: relative;}
+h4{text-align: center;}
+h1{text-align: center; padding-top: 200px;}
